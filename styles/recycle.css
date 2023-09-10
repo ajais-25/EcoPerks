@@ -1,0 +1,238 @@
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Sidebar */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69fe2 100%);
+    border-right: 1px solid rgb(228, 228, 228);
+    box-shadow: 1px 0px rgba(0, 0, 0, 0.05);
+    z-index: 100;
+}
+
+.Home {
+    margin-right: 60px;
+}
+
+.Home {
+    background-color: rgba(39, 197, 34, 0.851);
+}
+
+.logo {
+    margin-top: 35px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    font-weight: 100px;
+}
+
+.logo img{
+    width: 200px;
+    cursor: pointer;
+}
+
+.sidebar-link,
+.sidebar-link-settings {
+    height: 55px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.sidebar-link div,
+.sidebar-link-settings div {
+    margin-left: 15px;
+}
+
+.sidebar-link i,
+.sidebar-link-settings i {
+    margin-left: 15px;
+}
+.home-area,
+.create-area {
+    margin-right: 80px;
+}
+
+.MyProfile {
+    margin-right: 60px;
+    
+}
+
+.BookSlot,
+.Notifications {
+    margin-right: 30px;
+}
+.Rewards{
+    margin-right: 40px;
+}
+.Settings{
+    margin-right: 50px;
+}
+
+.home-area,
+.MyProfile,
+.BookSlot,
+.Notifications,
+.Rewards,
+.Settings{ 
+    transition: all 0.15s;
+}
+
+.sidebar-link:hover,
+.sidebar-link-settings:hover {
+    background-color: rgba(39, 197, 34, 0.851);
+}
+
+/* Recycle Content */
+
+.recycle-page-content {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 250px;
+    background-image: url("../images/main-white-bg.jpg");
+}
+
+.header-recycle {
+    /* background-color: grey; */
+    margin-bottom: 100px;
+    font-size: 40px;
+    color: #39ff39;
+    margin-top: 70px;
+}
+
+.roadmap {
+    /* display: flex;
+    justify-content: space-around; */
+    /* background-color: lightpink; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10%;
+    row-gap: 10%;
+    width: 90%;
+}
+
+.step {
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.step:hover {
+    transform: scale(1.4);
+}
+
+.step-num {
+    background-color: antiquewhite;
+    padding: 40px 30px 40px 30px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.step-text {
+    width: auto;
+    text-align: center;
+    color: white;
+}
+
+.book-slot {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.book-slot-button {
+    padding: 15px 20px 15px 20px;
+    border: none;
+    background-color: #39ff39;
+    color: white;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.book-slot-button:hover {
+    transform: scale(1.2);
+    font-size: 16px;
+}
+
+.explore-more {
+    /* background-color: antiquewhite; */
+    /* margin-top: 150px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #39ff39;
+    /* background-color: lightpink; */
+}
+
+.explore-more-text {
+    font-size: 22px;
+}
+
+.explore-arrow {
+    font-size: 25px;
+    animation-name: arrowMovement;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;   
+    position: relative;
+}
+
+@keyframes arrowMovement {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 4px;
+    }
+}
+
+.recycle-text-container {
+    background-color: #A8DF8E;
+    font-size: 50px;
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.recycle-text {
+    /* color: #39ff39; */
+    width: 80%;
+}

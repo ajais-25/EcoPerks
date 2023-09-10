@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Perks</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/home-page.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-container">
+            <div class="header">
+                <div class="logo-container">
+                    <a href="#home-section"><img src="logo.png" class="logo"></a>
+                </div>
+
+                <div class="nav-container">
+                    <div class="nav-buttons-container">
+                        <ul class="nav-buttons">
+                            <li class="home"><a href="#home-section">Home</a></li>
+                            <li class="reward"><a href="#rewards-section">Rewards</a></li>
+                            <li class="recycle"><a href="#recycle-section">Recycle</a></li>
+                            <li class="contact"><a href="#contact-section">Contact Us</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="sign-in-button-container">
+                        <a href="/signin"><button class="sign-in-button">Sign In</button></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-section" id="home-section">
+            <section class="home-section-container">
+                <div class="home-section">
+                    <div class="home-text">
+                        <div class="home-section-title">
+                            Sell your recyclabels online with <span class="Ecoperks">EcoPerks!</span>
+                        </div>
+            
+                        <div class="home-section-text">
+                            Earn while care with Eco Perks the web app that turns your recycling efforts into rewards, making a greener world even more rewarding!
+                        </div>
+            
+                        <div class="check-avail">
+                            <div class="availability">
+                                Check Availability!
+                            </div>
+            
+                            <div class="pin-enter">
+                                <div>
+                                    <input class="pincode js-pincode" type="text" placeholder="Enter Pin Code">
+                                </div>
+    
+                                <div class="check-button">
+                                    <button id="check" onclick="checkPin()">Check</button>
+                                </div>
+    
+                                <div class="message-container">
+                                    <p class="js-message"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="invite">
+                        <p>
+                            Join the sustainable revolution now!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="rewards-division-container" id="rewards-section">
+                <div class="rewards-division-title">
+                    <p>Rewards Division</p>
+                </div>
+
+                <div class="rewards-division">
+                    <div class="tier-2">
+                        <div class="tier-title">
+                            <p>Tier 2</p>
+                        </div>
+    
+                        <div class="tier-description">
+                            Tier 2 accommodates waste that falls between 5 and 10 kilograms in weight. This tier is your go-to solution for dealing with waste that's a bit bulkier and heavier. Think of it as the "medium-duty" tier, suitable for disposing of items like larger household appliances, gardening debris, or moderate-sized renovation waste.
+                        </div>
+                    </div>
+    
+                    <div class="tier-1">
+                        <div class="tier-title">
+                            <p>Tier 1</p>
+                        </div>
+    
+                        <div class="tier-description">
+                            Tier 1 is designed for small quantities of waste, typically ranging from 1 to 5 kilograms. It's like the "lightweight" option, ideal for everyday household waste, small clean-up projects, or recycling tasks. Whether it's disposing of packaging materials, food scraps, or small electronic devices, Tier 1 is your eco-friendly companion for lighter waste needs.
+                        </div>
+                    </div>
+    
+                    <div class="tier-3">
+                        <div class="tier-title">
+                            <p>Tier 3</p>
+                        </div>
+    
+                        <div class="tier-description">
+                            Tier 3 is the heavyweight category, designed to handle waste exceeding 10 kilograms in weight. t's designed to handle waste loads that exceed 10 kilograms, making it perfect for large-scale commercial or industrial waste management. Whether you're tackling construction debris, industrial byproducts, or substantial volumes of waste material, Tier 3 provides the capacity and capability needed for responsible disposal.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="reward-content">
+                <section class="center">
+    
+                    <div class="stack-area">
+                        <div class="left">
+                        <div class="title">Our Rewards Overhaul</div>
+                        <div class="sub-title">
+                Instant rewards at your fingertips!
+                            <br/>
+                            <button>See More Details</button>
+                        </div>
+                        </div>
+                        <div class="right">
+                        <div class="cards">
+                            <div class="card">
+                                <div class="sub">Trends</div>
+                                <div class="content">Flat Rs.249 off on Trends store!</div>
+                            </div>
+                            <div class="card">
+                                <div class="sub">Lenskart</div>
+                                <div class="content">Buy 2 get 1 free on Lenskart!</div>
+                            </div>
+                            <div class="card">
+                                <div class="sub">Dell</div>
+                                <div class="content">Flat 10% off on any Laptop on Dell store!</div>
+                            </div>
+                            <div class="card">
+                                <div class="sub">Airtel</div>
+                                <div class="content">5% Cashback on Airtel Recharge!</div>
+                            </div>
+                            <div class="card">
+                                <div class="sub">Paytm</div>
+                                <div class="content">Upto Rs500 cashback on payment above  Rs.3000!</div>
+                            </div>
+                            <div class="card">
+                                <div class="sub">Boat</div>
+                                <div class="content">Rs.500 discount on any Boat's product above 2000</div>
+                            </div>
+                            <div class="card">
+                                <div class="sub">Kotak</div>
+                                <div class="content">Get Rs.1000 on opening of a kotak 811 savings account!</div>
+                            </div>
+                            <div class="card">
+                                <div class="sub">Spencer's</div>
+                                <div class="content">20% cashback upto Rs.200 on Spencer's!</div>
+                            </div>
+                            <div class="card">
+                                <div class="sub">Dominos</div>
+                                <div class="content">Rs.200 off on any large pizza on Dominos!</div>
+                            </div>
+                            <div class="card">
+                                <div class="sub">Vi</div>
+                                <div class="content">Get free 3gb data card on Vi!</div>
+                            </div>
+                            <div class="card">
+                                <div class="sub">Pizza Hut</div>
+                                <div class="content">10%off on Pizza Hut!</div>
+                            </div>
+                            <div class="card">
+                                <div class="sub">Licious</div>
+                                <div class="content">Rs.100 cupon to spend on Licious...</div>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </section>
+            </div>
+
+            <section id="recycle-section">
+                <div class="recycle-section-heading">
+                    <p>Recycle</p>
+                </div>
+
+                <header class="header-recycle">
+                    <div class="header-text">Getting Rewarded for Recycling has never been so easy</div>
+                </header>
+
+                <div class="roadmap">
+                    <div class="step">
+                        <div class="step-num">Step 1</div>
+
+                        <div class="step-text">Simply Signup to Eco Perks</div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-num">Step 2</div>
+
+                        <div class="step-text">Book your Slot to Schdule a pickup</div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-num">Step 3</div>
+
+                        <div class="step-text">Our Ecopartners will door pickup your waste</div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-num">Step 4</div>
+
+                        <div class="step-text">Get Instant Rewards on Succesful Pickup</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    <footer class="footer" id="contact-section">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>EcoPerks</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">contact US</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Contributers</h4>
+  	 			<ul>
+  	 				<li><a href="#">Akshat Jaiswal</a></li>
+  	 				<li><a href="#">Swapnamoy Midya</a></li>
+					<li><a href="#">Deepjyoti Das</a></li>
+					<li><a href="#">Rahul Das</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+</div>
+    <script src="scripts/pinCheck.js"></script>
+    <script src="scripts/slidingeffect.js"></script>
+</body>
+</html>

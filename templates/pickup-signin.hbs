@@ -9,23 +9,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./public/styles/pickup-signin.css">
+    <link rel="stylesheet" href="styles/pickup-signin.css">
 </head>
 <body>
     <div class="wrapper">
-        <form action="" class="login-form">
+        <form action="/picksignin" method="post" class="login-form">
             <label for="login-id">Login ID: </label>
-            <input type="text" id="login-id" class="input-field">
+            <input type="text" name="loginid" id="login-id" class="input-field">
 
             <label for="password-field">Password: </label>
-            <input type="password" id="password-field" class="input-field">
-        </form>
-
+            <input type="password" name="password" id="password-field" class="input-field">
         <div class="note">*Note: This web application is exclusively authorised for use by Eco Perks authorised personal.</div>
 
         <div class="button-container">
             <button class="sign-in-button">Sign In</button>
         </div>
+        </form>
+
     </div>
 </body>
 </html>

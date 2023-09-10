@@ -9,43 +9,54 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="public/styles/notification.css">
+    <link rel="stylesheet" href="styles/rewards.css">
 </head>
 <body>
     <div class="wrapper">
-        <nav class="sidebar">
+       <nav class="sidebar">
             <div class="logo">
-                <img src="public/logo.png" alt="Logo">
+                <img src="images/logo.png" alt="Logo">
             </div>
             <div class="sidebar-link Home">
                 <i class='bx bxs-home'></i>
-                <div><a href="./recycle.html">Home</a></div>
+                <div><a href="/recycle">Home</a></div>
             </div>
             <div class="sidebar-link MyProfile">
                 <i class='bx bxs-user-account'></i>
-                <div><a href="./MyProfile.html">My Profile</a></div>
+                <div><a href="/profile">My Profile</a></div>
             </div>
             <div class="sidebar-link BookSlot">
                 <i class='bx bxs-check-square'></i>
-                <div><a href="./templates/slotbooking.hbs">Book Slot</a></div>
+                <div><a href="/slotbooking">Book Slot</a></div>
             </div>
             <div class="sidebar-link Notifications">
                 <i class='bx bxs-bell' ></i>
-                <div><a href="./notifications.html">Notifications</a></div>
+                <div><a href="/notification">Notifications</a></div>
             </div>
             <div class="sidebar-link Rewards">
                 <i class='bx bxs-party' ></i>
-                <div><a href="./rewards.html">Rewards</a></div>
+                <div><a href="/rewards">Rewards</a></div>
             </div>
             <div class="sidebar-link create-area">
                 <i class='bx bxs-cog' ></i>
                 <div>Settings</div>
             </div>
-        </nav>
+        </nav>
 
-        <div class="notification-container">
-            <div class="notification">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim explicabo voluptatibus optio eius alias!</div>
-        </div>
+       <div class="rewards-container">
+            <form action="" class="form">
+                <div class="form-content">
+                    <label for="reward-token">Put Reward Token : </label>
+                    <input type="text" name="reward-token" id="reward-token">
+                </div>
+
+                <div>
+                    <input type="submit" class="submit-button" value="Claim">
+                </div>
+            </form>
+
+            <div class="rewards">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim explicabo voluptatibus optio eius alias!</div>
+        </div>
     </div>
 </body>
 </html>

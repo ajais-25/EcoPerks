@@ -10,33 +10,21 @@ html,
 body {
     scroll-behavior: smooth;
 }
-
 a {
     text-decoration: none;
-    color: inherit;
+    color:inherit;
 }
-
-.wrapper {
-    display: flex;
-}
-
-.Home {
-    margin-right: 60px;
-}
-
-.sidebar {
+.sidebar
+ {
     position: fixed;
     top: 0;
-    left: 0;
     bottom: 0;
     width: 250px;
     background: linear-gradient(to right, #ffecd2 0%, #fcb69fe2 100%);
     border-right: 1px solid rgb(228, 228, 228);
     box-shadow: 1px 0px rgba(0, 0, 0, 0.05);
-    z-index: 100;
 }
-
-.Rewards {
+.MyProfile{
     background-color: rgba(39, 197, 34, 0.851);
 }
 
@@ -107,30 +95,86 @@ a {
 .sidebar-link-settings:hover {
     background-color: rgba(39, 197, 34, 0.851);
 }
-
-.rewards-container {
-    margin-left: 250px;
+.two-forms {
+    display: flex;
+    gap: 15px;
+}
+.MyProfile-container {
     height: 100vh;
     width: 100vw;
-    /* background-color: lightpink; */
-    display: flex;
-    justify-content: center;
-    /* background-image: url("../images/main-white-bg.jpg"); */
+    display: space;
+    flex-direction: column;
+    background-image: url("../images/main-white-bg.jpg");
+    margin-left: 250px;
+    padding-left: 100px;
+    padding-right: 70px;
+    padding-top: 90px;
+    border: 1px solid rgba(68, 66, 66, 0.312);
+}
+.MyProfile-header {
+    color: #4fba56;
+    /* background-color: hwb(0 20% 16%); */
+    font: "Poppins";
+    font-size: 40px;
+    text-align: center;
+    margin-right: 450px;
+    padding-bottom: 50px;
+    
 }
 
-.rewards {
-    height: 10%;
-    width: 80%;
-    margin-top: 50px;
+.two-forms {
     display: flex;
-    justify-content: center;
-    background-color: lightblue;
-    display: flex;
-    align-items: center;
+    gap: 15px;
+}
+.input-field {
+    font-size: 15px;
+    background: #ffffff;
+    color: black;
+    height: 50px;
+    width: 70%;
+    padding: 0 10px 0 40px;
+    border: 1px solid rgba(227, 213, 213, 0.8);
+    box-shadow: 2px 2px 4px rgba(159, 155, 155, 0.579);
     border-radius: 10px;
-    transition: all 0.15s;
+    outline: none;
 }
 
-.rewards:hover {
-    transform: scale(1.1);
-}   
+.input-field:hover, .input-field:focus, .Input-field:hover, .Input-field:focus {
+    background: rgba(57, 35, 35, 0.25);
+}
+
+::-webkit-input-placeholder {
+    color: #cf2828;
+}
+ .input-box i {
+    position: relative;
+    top: 33px;
+    left: 17px;
+    color: #891010;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+.Input-field{
+    font-size: 15px;
+    background: #ffffff;
+    color: black;
+    height: 50px;
+    width: 100%;
+    padding: 0 245px 0 40px;
+    border: 1px solid rgba(227, 213, 213, 0.8);
+    box-shadow: 2px 2px 4px rgba(159, 155, 155, 0.579);
+    border-radius: 10px;
+    outline: none;
+}
+.EditButton{
+    color: #c01d1d;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 2px 6px;
+}
+.EditButton:hover{
+    color: #0f5d15;
+    transition: ease-in;
+}

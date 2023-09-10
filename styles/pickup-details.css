@@ -1,0 +1,108 @@
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 480px;
+    width: 520px;
+    margin-top: 7%;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.login-form {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 85%;
+    padding-left: 3%;
+}
+
+.form-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1%;
+}
+
+label {
+    /* background-color: lightblue; */
+    max-width: 150px;
+    width: auto;
+}
+
+.input-field {
+    padding: 5px 5px 5px 5px;
+    font-size: 18px;
+    width: 60%;
+}
+
+.note {
+    text-align: left;
+    width: 70%;
+}
+
+.confirm-button {
+    background-color: #4eef4e;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-size: 18px;
+}
+
+.confirm-button:hover {
+    background-color: #4eef4ebf;
+    transform: scale(1.2);
+}
+
+.confirm-button:active {
+    background-color: #4eef4e96;
+}
+
+@media (max-width: 269.99px) {
+    .wrapper {
+        width: 180px;
+    }
+}
+
+@media (min-width: 270px) and (max-width: 329.99px) {
+    .wrapper {
+        width: 250px;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 399.99px) {
+    .wrapper {
+        width: 300px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 479.99px) {
+    .wrapper {
+        width: 370px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 560px) {
+    .wrapper {
+        width: 450px;
+    }
+}

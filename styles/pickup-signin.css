@@ -1,0 +1,91 @@
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 350px;
+    margin-top: 10%;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.login-form {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    height: 160px;
+    width: 82%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.input-field {
+    padding: 5px 5px 5px 5px;
+    font-size: 18px;
+}
+
+.note {
+    text-align: left;
+    width: 70%;
+}
+
+.sign-in-button {
+    background-color: #4eef4e;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-size: 18px;
+}
+
+.sign-in-button:hover {
+    background-color: #4eef4ebf;
+    transform: scale(1.2);
+}
+
+.sign-in-button:active {
+    background-color: #4eef4e96;
+}
+
+@media (max-width: 189.99px) {
+    .wrapper {
+        height: 450px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 190px) and (max-width: 239.99px) {
+    .wrapper {
+        height: 450px;
+        width: 160px;
+    }
+}
+
+@media (min-width: 240px) and (max-width: 289.99px) {
+    .wrapper {
+        width: 220px;
+    }
+}
+
+@media (min-width: 290px) and (max-width: 390px) {
+    .wrapper {
+        width: 260px;
+    }
+}

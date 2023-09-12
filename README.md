@@ -41,7 +41,7 @@ To run EcoPerks locally, follow these steps:
 - Template Engine: hbs
 - Backend: Node.js, Express.js
 - Database: MongoDB
-- Deployment: Netlify
+- Deployment: Cyclic
 
 ---
 

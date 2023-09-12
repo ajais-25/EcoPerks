@@ -13,7 +13,7 @@ Welcome to EcoPerks! This platform allows users to sign up, schedule waste picku
 
 EcoPerks aims to promote recycling by providing users with an easy and convenient way to schedule waste pickups and earn rewards for their recycling efforts. Users can sign up, book pickup slots, and start recycling.
 
-Hosted at : [EcoPerks]{https://ecoperks.cyclic.app}
+Hosted at : [EcoPerks](https://ecoperks.cyclic.app)
 
 ## Features
 
